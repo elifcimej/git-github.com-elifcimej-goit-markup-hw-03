@@ -30,6 +30,7 @@ img{
     height: 72px;
     border: 1px;
     display: flex;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .page-logo-title {
@@ -66,12 +67,13 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .menu-nav{
     display: flex;
     align-items: center;
-    
+
 }
 .menu-nav ul li:first-child a:focus {
     color: #404bbf;
@@ -80,7 +82,9 @@ img{
 .menu-nav ul li:first-child a:hover {
     color: #404bbf;
 }
-
+.page-menu-list{
+    display: flex;
+}
 .page-menu-list ul li:first-child a:hover {
     color: #404bbf;
 }
@@ -91,10 +95,16 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    margin-right: 76px
 }
 
 .address {
     font-style: normal;
+}
+
+.address-list{
+    display: flex;
+    gap: 40px;
 }
 
 .address-li-one {
@@ -125,10 +135,11 @@ img{
     top: 72px;
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px 0
 }
 
-.section-one h1 {
-    width: 469px;
+.section-one-title {
+    max-width: 469px;
     height: 120px;
     top: 260px;
     font-weight: 700;
@@ -140,8 +151,10 @@ img{
 }
 
 .section-one button {
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
+    border: none;
     top: 428px;
     left: 636px;
     border-radius: 4px;
