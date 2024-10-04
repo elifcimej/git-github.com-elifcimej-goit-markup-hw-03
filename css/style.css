@@ -206,7 +206,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 
 }
 
@@ -236,6 +236,7 @@ img{
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .section-three h2 {
@@ -246,6 +247,18 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
+.team-card{
+    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-three ul li {
@@ -256,7 +269,7 @@ img{
     width: 264px;
     height: 260px;
 }
-.section-three h3 {
+/* .section-three h3 {
 
     font-weight: 500;
     font-size: 20px;
@@ -270,6 +283,27 @@ img{
     font-size: 16px;
     color: #434455;
     letter-spacing: 0.02em;
+} */
+
+.div-personal{
+    padding: 32px 0;
+}
+
+.teamlist-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.teamlist-p{
+    font-size: 16px;
+    color: #434455;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .section-four {
