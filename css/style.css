@@ -9,8 +9,21 @@ body {
     letter-spacing: 2%;
     background-color: #FFFFFF;
 }
+img{
+    display: block;
+}
 
-header {
+.my-div{
+    display: flex;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
     background-color: #FFFFFF;
     bottom: 1px;
     width: 1440px;
@@ -55,6 +68,11 @@ header {
     text-decoration: none;
 }
 
+.menu-nav{
+    display: flex;
+    align-items: center;
+    
+}
 .menu-nav ul li:first-child a:focus {
     color: #404bbf;
 }
