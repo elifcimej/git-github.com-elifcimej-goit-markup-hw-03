@@ -140,7 +140,7 @@ img{
 }
 
 .section-one-title {
-    max-width: 469px;
+    max-width: 496px;
     height: 120px;
     top: 260px;
     font-weight: 700;
@@ -179,6 +179,9 @@ img{
     background-color: #404bbf;
 }
 
+.section-two{
+    padding: 120px 0;
+}
 
 .title-strategy{
     width: 264px;
@@ -191,6 +194,16 @@ img{
     color: #2E2F42;
 
 }
+
+.section-two-ul{
+    display: flex;
+    gap: 24px;
+}
+
+.list-one{
+    width: calc((100% - 72px) / 4);
+}
+
 .p-strategy {
 
     font-size: 16px;
