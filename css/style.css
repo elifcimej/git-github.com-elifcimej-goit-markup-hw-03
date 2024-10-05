@@ -156,9 +156,7 @@ img{
 }
 
 .section-one-title {
-    /* max-width: 496px;
-    height: 120px;
-    top: 260px; */
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07em;
@@ -345,7 +343,7 @@ img{
     row-gap: 48px;
 }
 
-.section-four ul li {
+.list-item {
     list-style-type: none;
 }
 
