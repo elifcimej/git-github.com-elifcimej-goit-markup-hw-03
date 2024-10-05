@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 1440px;
     height: 3300px;
@@ -54,10 +62,7 @@ img{
 }
 
 .page-menu-list {
-    width: 261px;
-    height: 24px;
-    top: 24px;
-    left: 347px;
+    display: flex;
     gap: 40px;
 }
 
@@ -76,6 +81,7 @@ img{
     display: flex;
     align-items: center;
 
+
 }
 .menu-nav ul li:first-child a:focus {
     color: #404bbf;
@@ -85,6 +91,7 @@ img{
     color: #404bbf;
 }
 .page-menu-list{
+    list-style-type: none;
     display: flex;
 }
 .page-menu-list ul li:first-child a:hover {
@@ -97,7 +104,7 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    margin-right: 76px
+  
 }
 
 .address {
@@ -105,23 +112,27 @@ img{
 }
 
 .address-list{
+    padding-top: 24px;
+    list-style-type: none;
     display: flex;
     gap: 40px;
+    margin-left: auto;
+    
 }
 
-.address-li-one {
+/* .address-li-one {
     width: 153px;
     height: 24px;
     top: 24px;
     left: 940px;
-}
+} */
 
-.address-li-two {
+/* .address-li-two {
     width: 151px;
     height: 24px;
     top: 24px;
     left: 1133px;
-}
+} */
 
 .address ul li:first-child a:hover {
     color: #404bbf;
@@ -131,19 +142,23 @@ img{
     color: #404bbf;
 }
 
+.section-one .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .section-one {
-    width: 1440px;
-    height: 600px;
-    top: 72px;
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 0
 }
 
 .section-one-title {
-    max-width: 496px;
+    /* max-width: 496px;
     height: 120px;
-    top: 260px;
+    top: 260px; */
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07em;
@@ -155,20 +170,15 @@ img{
 .section-one button {
     display: block;
     min-width: 169px;
-    height: 56px;
     border: none;
-    top: 428px;
-    left: 636px;
     border-radius: 4px;
-    padding: 16px, 32px, 16px, 32px;
-    gap: 10px;
-    background-color: #4D5AE5;
+    height: 56px;
     font-family: "Roboto", sans-serif;
-    color: #FFFFFF;
     font-weight: 500;
-    letter-spacing: 0.04em;
-    font-size: 16px;
+    color: #ffffff;
+    background-color: #4D5AE5;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -213,6 +223,7 @@ img{
 .section-two-ul{
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .list-one{
@@ -230,7 +241,9 @@ img{
 }
 
 .team-list .team-card {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    width: 264px;
+
     list-style-type: none;
 }
 
@@ -263,6 +276,7 @@ img{
 
 .section-three ul li {
     list-style-type: none;
+
 }
 
 .section-three img {
@@ -286,7 +300,7 @@ img{
 } */
 
 .div-personal{
-    padding: 32px 0;
+    padding-bottom: 32px;
 }
 
 .teamlist-title{
@@ -310,6 +324,7 @@ img{
     border: 1px, 1px, 1px, 1px;
     background: #FFFFFF;
     margin: auto;
+    padding: 120px 0;
 
 }
 
@@ -322,7 +337,9 @@ img{
     text-transform: capitalize;
     color: #2e2f42;
 }
-
+.section-four ul{
+    display: flex;
+}
 .section-four ul li {
     list-style-type: none;
 }
