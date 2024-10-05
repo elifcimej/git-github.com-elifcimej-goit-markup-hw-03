@@ -329,7 +329,7 @@ img{
 }
 
 .our-portfolio {
-
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -337,11 +337,23 @@ img{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.section-four ul{
+
+.portfolio-list{
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
+
 .section-four ul li {
     list-style-type: none;
+}
+
+.category{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .title-app {
@@ -359,6 +371,10 @@ img{
 
 footer {
     background-color: #2e2f42;
+}
+
+footer .container{
+    padding: 100px 0;
 }
 
 .page-logo-footer {
@@ -385,7 +401,7 @@ footer {
 }
 
 .footer-p {
-
+    padding-top: 24px;
     width: 264px;
     height: 72px;
     top: 3128px;
